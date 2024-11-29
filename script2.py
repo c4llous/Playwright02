@@ -90,7 +90,7 @@ def scrape_flyer_with_playwright(url):
 
 @app.route('/scrape')
 def scrape_flyer():
-    url = "https://flipp.com/en-ca/thunder-bay-on/flyer/6853525-no-frills-weekly-flyer-valid-thursday-october-3-wednesday-october-9?postal_code=P7A1A1"  # Replace with actual flyer URL
+    url = "https://flipp.com/en-ca/thunder-bay-on/flyer/6907073-shoppers-drug-mart-flyer?postal_code=P7A1A1"  # Replace with actual flyer URL
     image_path = scrape_flyer_with_playwright(url)
     
     if image_path:
