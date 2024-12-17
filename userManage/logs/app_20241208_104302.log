@@ -1,0 +1,5 @@
+2024-12-08 10:43:02,787 [INFO] Database initialized.
+2024-12-08 10:43:02,787 [INFO] Starting the Flask application.
+2024-12-08 10:43:02,798 [WARNING]  * Debugger is active!
+2024-12-08 10:43:02,799 [INFO]  * Debugger PIN: 415-389-325
+2024-12-08 10:43:08,933 [INFO]  * Detected change in '/workspaces/codespaces-blank/userManage/main.py', reloading

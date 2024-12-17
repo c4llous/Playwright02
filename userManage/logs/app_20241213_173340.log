@@ -1,0 +1,12 @@
+2024-12-13 17:33:40,225 [INFO] Database initialized.
+2024-12-13 17:33:40,225 [INFO] Starting the Flask application.
+2024-12-13 17:33:40,242 [WARNING]  * Debugger is active!
+2024-12-13 17:33:40,250 [INFO]  * Debugger PIN: 261-363-187
+2024-12-13 17:34:05,840 [INFO] User updated successfully: user@example.com
+2024-12-13 17:34:05,841 [INFO] 127.0.0.1 - - [13/Dec/2024 17:34:05] "PUT /user/user@example.com HTTP/1.1" 200 -
+2024-12-13 17:34:50,039 [WARNING] User not found for API key regeneration: user@example.com
+2024-12-13 17:34:50,040 [INFO] 127.0.0.1 - - [13/Dec/2024 17:34:50] "[33mPUT /user/user@example.com/api_key HTTP/1.1[0m" 404 -
+2024-12-13 17:35:24,370 [INFO] User created successfully: user@example.com
+2024-12-13 17:35:24,370 [INFO] 127.0.0.1 - - [13/Dec/2024 17:35:24] "[35m[1mPOST /user HTTP/1.1[0m" 201 -
+2024-12-13 17:35:36,266 [INFO] API key regenerated for user: user@example.com
+2024-12-13 17:35:36,267 [INFO] 127.0.0.1 - - [13/Dec/2024 17:35:36] "PUT /user/user@example.com/api_key HTTP/1.1" 200 -
